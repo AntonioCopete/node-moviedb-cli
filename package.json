@@ -1,26 +1,24 @@
 {
-  "name": "node-moviedb-cli",
+  "name": "moviedb-cli",
   "version": "1.0.0",
-  "description": "Assembler School: Node.js MovieDB CLI",
-  "keywords": [
-    "node.js",
-    "cli app",
-    "assembler school"
-  ],
-  "author": "Dani Lucaci <dani@assemblerschool.com>",
-  "license": "MIT",
-  "private": true,
-  "main": "src/moviedb.js",
+  "description": "`#node.js` `#master-in-software-engineering`",
+  "main": "./src/moviedb.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/assembler-school/node-moviedb-cli.git"
+    "url": "git+https://github.com/AntonioCopete/-node-moviedb-cli-copy.git"
   },
-  "scripts": {},
+  "author": "Antonio, Yaiser, Arantza, José",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioCopete/-node-moviedb-cli-copy/issues"
+  },
+  "homepage": "https://github.com/AntonioCopete/-node-moviedb-cli-copy#readme",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^6.1.0",
-    "dotenv": "^8.2.0",
-    "node-notifier": "^8.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "dotenv": "^10.0.0",
+    "node-notifier": "^10.0.0",
     "ora": "^5.1.0"
   }
 }
